@@ -1,4 +1,4 @@
-# program wczytuje dane do listy lines, inc_cout zlicza ilość zwiększeń sum trójek głębokości
+# program wczytuje dane do listy lines, inc_cout zlicza ilość zwiększeń głębokości
 # pętla for przegląda kolejno każdą głębokość, pierwszy obieg pętli jest pomijany
 with open('data.txt') as f:
     lines = f.readlines()

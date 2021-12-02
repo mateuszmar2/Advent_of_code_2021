@@ -1,5 +1,7 @@
-# program wczytuje dane do listy lines, inc_cout zlicza ilość zwiększeń głębokości
-# pętla for przegląda kolejno każdą głębokość, pierwszy obieg pętli jest pomijany
+# program wczytuje dane do listy lines, dzięki splitlines() pomijane są znaki białe, dane zostają przepisane do listy intów
+# inc_cout zlicza ilość zwiększeń trójek głębokości
+# pętla for przegląda kolejno każdą głębokość, 3 pierwszych oraz 2 ostatnich obiegów nie wykonuje
+# selector "mówi", do której kolumny nie dodawać wartości, sumy wartości w kolumnach przetrzymywane są w sum_table
 with open('data.txt') as f:
     lines = f.read().splitlines()
 
