@@ -1,4 +1,4 @@
-
+# nadpisuje całą tablicę -2 żeby przestać z niej korzystać
 def clearBoard(board):
     for x in range(5):
         for y in range(5):
